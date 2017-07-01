@@ -1,5 +1,6 @@
 # Common-Password-Generation
-#Made by jasonfish4
+# Made by jasonfish4
+# Password Generation Algorithm
 
 import random
 import hashlib
