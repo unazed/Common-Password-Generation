@@ -38,7 +38,7 @@ mainroutine (target):
         if engdict.check (randomword3):
             randomkey3 = randomword3 + str (random.randint (0, 99))
         elif not engdict.check (randomword3):
-            englist = engdict.suggest randomword3)
+            englist = engdict.suggest (randomword3)
             
             if englist:
                 randomkey3 = englist[0] + str (random.randint (0, 99))
