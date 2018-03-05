@@ -79,8 +79,8 @@ mainroutine (target):
                          or target == whasher3.hexdigest ()\
                          or whasher1.hexdigest ():
                return whasher0.hexdigest ()
-            else if target == whasher3.hexdigest ():
+            elif target == whasher3.hexdigest ():
                return whasher3.hexdigest ()
-            else if target == whasher1.hexdigest ():
+            elif target == whasher1.hexdigest ():
                return whasher1.hexdigest ()
             return EXIT_FAILURE
