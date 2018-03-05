@@ -67,13 +67,13 @@ mainroutine (target):
             whasher1 = hashlib.new ("md5")
             whasher1.update (randomkey1)
             
-            print ("%s + %s\n" % (randomkey0, whasher0.hexdigest ())
-            print ("%s + %s\n" % (randomkey3, whasher3.hexdigest ())
-            print ("%s + %s\n" % (randomkey1, whasher1.hexdigest ())
+            print ("%s + %s\n" % (randomkey0, whasher0.hexdigest ()))
+            print ("%s + %s\n" % (randomkey3, whasher3.hexdigest ()))
+            print ("%s + %s\n" % (randomkey1, whasher1.hexdigest ()))
             
-            fileb.write ("%s + %s\n" % (randomkey0, whasher0.hexdigest ())
-            fileb.write ("%s + %s\n" % (randomkey3, whasher3.hexdigest ())
-            fileb.write ("%s + %s\n" % (randomkey1, whasher1.hexdigest ())
+            fileb.write ("%s + %s\n" % (randomkey0, whasher0.hexdigest ()))
+            fileb.write ("%s + %s\n" % (randomkey3, whasher3.hexdigest ()))
+            fileb.write ("%s + %s\n" % (randomkey1, whasher1.hexdigest ()))
             
             if target == whasher0.hexdigest ()\
                          or target == whasher3.hexdigest ()\
